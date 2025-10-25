@@ -28,12 +28,12 @@ function App() {
         {/* Profile Section */}
         <div className="output fade-in">
           <img
-            src="/profile.jpg"
+            src="profile.jpeg"
             alt="Foto de perfil"
             className="profile-image"
           />
           <h1 className="name">Alan Espinoza</h1>
-          <p className="title typing-animation">Desarrollador Full Stack</p>
+          <p className="title typing-animation">Desarrollador More-or-less Stack</p>
         </div>
 
         {/* About Section */}
@@ -123,7 +123,7 @@ function App() {
           <h2 className="section-title"># Contacto</h2>
           <div className="contact-links">
             <a 
-              href="https://github.com/alanespinoza" 
+              href="https://github.com/AlanEp-sys" 
               target="_blank" 
               rel="noreferrer"
               className="contact-link"
@@ -132,7 +132,7 @@ function App() {
               <FaGithub />
             </a>
             <a 
-              href="https://linkedin.com/in/alanespinoza" 
+              href="https://www.linkedin.com/in/alan-espinoza-819a13321/"
               target="_blank" 
               rel="noreferrer"
               className="contact-link"
@@ -141,9 +141,11 @@ function App() {
               <FaLinkedin />
             </a>
             <a 
-              href="mailto:alanespinoza@example.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=espinozaperezalan@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="contact-link"
-              title="Email"
+              title="Enviar correo desde Gmail"
             >
               <FaEnvelope />
             </a>
