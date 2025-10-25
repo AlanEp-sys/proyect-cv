@@ -1,9 +1,10 @@
+// src/App.jsx
 import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaDatabase, FaServer } from "react-icons/fa";
 import FacebookComments from "./components/FacebookComments";
 import "./App.css";
 
 function App() {
-  const currentUrl = "https://alanep-sys.github.io/";
+  const currentUrl = "https://alanep-sys.github.io/proyect-cv/";
   return (
     <div className="terminal-container">
       {/* Terminal Header */}
